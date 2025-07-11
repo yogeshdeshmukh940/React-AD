@@ -1,0 +1,43 @@
+[
+     {
+       "name": "Alice Sharma",
+       "email": "alice.sharma@example.com",
+       "mobile": "9876543210",
+       "gender": "Female",
+       "isActive": true,
+       "profession": "Software Engineer"
+     },
+     {
+       "name": "Rahul Mehta",
+       "email": "rahul.mehta@example.com",
+       "mobile": "9123456789",
+       "gender": "Male",
+       "isActive": false,
+       "profession": "Digital Marketer"
+     },
+     {
+       "name": "Sara Khan",
+       "email": "sara.khan@example.com",
+       "mobile": "9988776655",
+       "gender": "Female",
+       "isActive": true,
+       "profession": "UI/UX Designer"
+     },
+     {
+       "name": "Amit Joshi",
+       "email": "amit.joshi@example.com",
+       "mobile": "9090909090",
+       "gender": "Male",
+       "isActive": true,
+       "profession": "Data Analyst"
+     },
+     {
+       "name": "Priya Singh",
+       "email": "priya.singh@example.com",
+       "mobile": "9512345678",
+       "gender": "Female",
+       "isActive": false,
+       "profession": "Project Manager"
+     }
+   ]
+   

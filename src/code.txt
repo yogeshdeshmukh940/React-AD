@@ -1,0 +1,37 @@
+import React from 'react'
+
+function App() {
+
+  const [value,setvalue]=React.useState("...")
+
+  function abc(){
+    setvalue("abhi")
+  }
+
+  function xyz(x,y){
+    alert(`Hello, ${x} ${y}!`)
+  }
+
+  function getvalue(e){
+    // setvalue(e.target.value)
+  }
+
+  return (
+   <>
+   <h1>value of input is {value}</h1>
+   <input type="text" className='border rounded px-2 py-0.5' onChange={getvalue} />
+    <button className='border rounded px-2 py-0.5' onClick={abc}>click me</button>
+    <button className='border rounded px-2 py-0.5' onClick={()=>{xyz(45,10)}}>parameter</button>
+    <button className='border rounded px-2 py-0.5' onClick={()=>{alert("hiii")}}>show value</button>
+   </>
+  )
+}
+
+export default App
+
+
+
+var person={}
+
+person.name="abhishek"
+person["age"]=25
